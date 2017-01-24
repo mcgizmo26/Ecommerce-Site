@@ -1,0 +1,163 @@
+.cartWrapper {
+    height: 75vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cartContainer {
+    height: 500px;
+    width: 900px;
+    background-color: #FBFBFB;
+    border: #B3B3B3 solid .5px;
+}
+
+/********************* Cart Header ******************/
+
+.cartHeaderContainer {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #CE0400;
+    border: #B3B3B3 solid .5px;
+}
+.cartHeader {
+    height: 40px;
+    width: 50%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+    color: #FFFFFF;
+    border-bottom: #FFFFFF solid .5px;
+    display: flex;
+    justify-content: center;
+}
+.cartSubHeaderContainer {
+    height: 8%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-color: #DDDDDD;
+}
+.headerNameDescription {
+    width: 15%;
+}
+.headerProductName {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerProductPrice {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/******************** Content Section ******************/
+
+.cartContentsContainer {
+    height: 75%;
+    width: 100%;
+    overflow: scroll;
+}
+.cartContents {
+    height: 70px;
+    width: 100%;
+    background: linear-gradient(#e9e9e9, #fafafa);
+    display: flex;
+    flex-direction: row;
+}
+.tempItemImgContainer {
+    height: 100%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tempProductImg {
+    max-height: 55px;
+    max-width: 75px;
+}
+.tempItemName {
+    height: 100%;
+    width: 60%;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tempItemPrice {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*********************** Price Box ***********************/
+
+.priceWrapper {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.seventyFivePercent {
+    width: 75%;
+}
+.priceBox {
+    width: 25%;
+    border-color: green;
+    display: flex;
+    justify-content: center;
+}
+
+.priceBoxLine {
+    height: 100%;
+    width: 40%;
+    border-top: #B3B3B3 solid .5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*********************** Footer ***********************/
+
+.cartFooter {
+    height: 7%;
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.logout {
+    font-size: 15px;
+}
+.buyContainer {
+    background: linear-gradient(#da3333, #781616);
+    margin: 0;
+    height: 30px;
+    width: 70px;
+    cursor: pointer;
+    color: #FFF;
+    font: bold 10pt/24pt sans-serif;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buyButton {
+    margin: 0;
+    padding: 0;
+}
+
+.clearCart{
+  margin: 0;
+  padding: 0;
+}

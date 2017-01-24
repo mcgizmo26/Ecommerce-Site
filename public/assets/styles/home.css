@@ -1,0 +1,143 @@
+@import 'https://fonts.googleapis.com/css?family=Fjalla+One';
+
+.mainBodyWrapper{
+  height: 75vh;
+  width: 100%;
+}
+
+/******* Top Left *************/
+.saleSectionContainer{
+  height: 70%;
+  width: 100%;
+  border-top: #FFFFFF solid 2px;
+  background-color: #003E6C;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.saleWrapper{
+  height: 100%;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+}
+
+.saleSection{
+  height: inherit;
+  width: 40%;
+  border-right: #FFFFFF solid 2px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+}
+
+#fifty{
+  font-size: 200px;
+  font-family: 'Fjalla One', sans-serif;
+  color: #FFD400;
+  display: flex;
+  justify-content: center;
+}
+
+#anniversary{
+  font-size: 50px;
+  font-family: 'Fjalla One', sans-serif;
+  color: #9B9EA1;
+  display: flex;
+  justify-content: center;
+}
+
+#sale{
+  font-size: 150px;
+  font-family: 'Fjalla One', sans-serif;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+}
+
+/******* Top Right *************/
+.imgSection{
+  height: inherit;
+  width: 60%;
+  border-right: #FFFFFF solid 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.whiteImg img{
+  max-height: 70px;
+  max-width: 70px;
+}
+
+.imgSectionTop{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.imgSectionMid{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.imgSectionBottom{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/******* mid *************/
+.midSection{
+  height: 5%;
+  width: 100%;
+  background-color: #0073BD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#midText{
+  color: #FFFFFF;
+}
+
+/******* lower *************/
+
+.lowerSection{
+  height: 25%;
+  width: 100%;
+  background-color: #E6E8E8;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.iwatchHome img{
+  max-height: 100px;
+  max-width: 100px;
+}
+
+.hpHome img{
+  max-height: 100px;
+  max-width: 100px;
+}
+
+.macbookHome img{
+  max-height: 100px;
+  max-width: 100px;
+}
+
+.xboxHome img{
+  max-height: 100px;
+  max-width: 100px;
+}
+
+.playstationHome img{
+  max-height: 100px;
+  max-width: 100px;
+}

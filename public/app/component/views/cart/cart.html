@@ -1,0 +1,48 @@
+<div class="cartWrapper">
+    <div class="cartContainer">
+        <div class="cartHeaderContainer">
+            <div class="cartHeader">
+                Shopping cart
+            </div>
+        </div>
+        <div class="cartSubHeaderContainer">
+            <div class="headerNameDescription" ng-show="signedIn">
+                <div class="welcome">Welcome </div>
+                <div class="usersName">{{user.name}}</div>
+            </div>
+            <div class="headerProductName">Product Name</div>
+            <div class="headerProductPrice">Price</div>
+        </div>
+        <div class="cartContentsContainer">
+            <div class="cartContents" ng-repeat="item in tempItem">
+                <div class="tempItemImgContainer">
+                    <img class="tempProductImg" ng-src="{{item.imageurl}}" alt="">
+                </div>
+                <div class="tempItemName">
+                    {{item.name}}
+                </div>
+                <div class="tempItemPrice">
+                    {{item.price | currency:"$"}}
+                </div>
+            </div>
+            <div class="priceWrapper">
+                <div class="seventyFivePercent"></div>
+                <div class="priceBox">
+                    <div class="priceBoxLine" ng-model="total"> {{totalPrice | currency:"$"}}</div>
+                </div>
+            </div>
+        </div>
+        <div class="cartFooter">
+            <input type="button" class="logout" ng-click="logout()" value="logout" ng-show="signedIn">
+            <div class="cartButtonBox">
+
+                <button class="clearCart" ng-click="removeFromTempCart(item.id)">
+                    <div class="buyContainer">Clear Cart</div>
+                </button>
+
+                <button class="buyButton" ng-click="buyItems(pro)" ng-show="signedIn">
+                    <div class="buyContainer">Buy Now</div>
+                </button>
+            </div>
+        </div>
+    </div>

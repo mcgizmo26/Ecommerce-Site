@@ -1,0 +1,23 @@
+<div class="test" ng-repeat="product in products | filter: productFinder">
+    <div class="productContainer">
+        <div class="productImageContainer">
+            <img class="productImg" ng-src="{{product.imageurl}}" alt="">
+        </div>
+        <div class="productMidContainer">
+            <div class="projectNameContainer">
+                {{product.name}}
+            </div>
+            <div class="productDescriptionContainer">
+                <div class="productDescription">
+                    {{product.description}}
+                </div>
+            </div>
+            <div class="productPriceContainer">
+                {{product.price | currency:"$"}}
+            </div>
+        </div>
+        <div class="buttonProductContainer">
+            <button class="addProduct" ng-click="addProductToTempCart(product.id)">Add to Cart</button>
+        </div>
+    </div>
+</div>

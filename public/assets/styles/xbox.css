@@ -1,0 +1,19 @@
+.xboxHomeHeader {
+  height: 600px;
+  width: 100vw;
+  flex-direction: column;
+}
+
+.xboxImgWrapper {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(#085D25, #51BE91);
+}
+
+.xboxImg {
+  height:600px;
+  width: 1067px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../img/XboxOneMain.jpg);
+}

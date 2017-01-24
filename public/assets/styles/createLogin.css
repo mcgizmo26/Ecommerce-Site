@@ -1,0 +1,108 @@
+.loginContainer{
+  height: 75vh;
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftSideCreateLoginWrapper{
+  height: 250px;
+  width: 400px;
+  margin-right: 50px;
+}
+
+#signInRedirect {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-bottom: 5px;
+  font-size: 24px;
+  font-family: sans-serif;
+  border-bottom: 2px black solid;
+  color: #424242;
+}
+
+.createSignInWrapper {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  margin-left: 70px;
+  width:90%;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.createNameInput {
+  height: 20px;
+  width: 80%;
+}
+
+.userNameBox {
+  margin-left: 70px;
+  width:90%;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.createUserNameInput {
+  height: 20px;
+  width: 80%;
+}
+
+.createPasswordBox {
+  margin-left: 70px;
+  width:90%;
+  font-size: 18px;
+}
+
+.createPasswordInput{
+  height: 20px;
+  width: 80%;
+}
+
+.signInButtonRedirect {
+  background: linear-gradient(#da3333, #781616);
+  margin-top: 50px;
+  margin-left: 100px;
+  padding: 0;
+  height: 26pt;
+  width: 60pt;
+  cursor: pointer;
+  color: #FFF;
+  border-radius: 10px;
+  font: bold 10pt/24pt sans-serif;
+}
+
+.rightSideCreateLoginWrapper {
+  background: linear-gradient(#eeeeee, #ffffff);
+  height: 350px;
+  width: 400px;
+  margin-left: 50px;
+  border-bottom: solid 1px #DEDFDF;
+}
+
+.account {
+  font-size: 30px;
+  color: #707070;
+}
+
+.createAccountLinkButton {
+  background: linear-gradient(#da3333, #781616);
+  margin-top: 50px;
+  margin-left: 20px;
+  padding: 0;
+  height: 26pt;
+  width: 200pt;
+  cursor: pointer;
+  color: #FFF;
+  border-radius: 10px;
+  font: bold 10pt/24pt sans-serif;
+}

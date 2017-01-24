@@ -1,0 +1,22 @@
+<div class= "loginContainer">
+    <div class= "rightSideLoginWrapper">
+        <div id= "signIn">Sign In</div>
+        <div class= "signInWrapper">
+            <div class= "userNameBox">
+                <div id= "email">Username:</div>
+                <input class= "userNameInput" ng-model="username">
+            </div>
+            <div class= "passwordBox">
+                <div id= "password">Password:</div>
+                <input class= "passwordInput" ng-model="password" type="password" placeholder="Password...">
+            </div>
+            <div class= "signInBox">
+                <button class= "signInButton" ng-click="login(username, password)">Sign In</button>
+            </div>
+        </div>
+    </div>
+    <div class= "leftSideLoginWrapper">
+        <div class= "noAccount">Don't have an account yet?</div>
+        <button class= "createAccountLinkButton" ui-sref= "createlogin">Create Account Now</button>
+    </div>
+</div>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html ng-app="ecommerseApp">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Ecommerce-Site</title>
+
+    <link rel="stylesheet" href="./assets/styles/reset.css">
+    <link rel="stylesheet" href="./assets/styles/header.css">
+    <link rel="stylesheet" href="./assets/styles/footer.css">
+    <link rel="stylesheet" href="./assets/styles/home.css">
+    <link rel="stylesheet" href="./assets/styles/login.css">
+    <link rel="stylesheet" href="./assets/styles/createlogin.css">
+    <link rel="stylesheet" href="./assets/styles/xbox.css">
+    <link rel="stylesheet" href="./assets/styles/product.css">
+    <link rel="stylesheet" href="./assets/styles/cart.css">
+
+</head>
+
+<body>
+    <main-header></main-header>
+    <ui-view></ui-view>
+    <div ng-include="'./app/component/views/footer/footer.html'"></div>
+
+    <script src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.6/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.0/angular-ui-router.js"></script>
+
+    <script src="./app/shared/app.module.js"></script>
+
+    <!-- ************************** Directives ************************* -->
+    <script src="./app/shared/ecommerseDirective1.js"></script>
+    <script src="./app/shared/ecommerseDirective2.js"></script>
+    <script src="./app/shared/ecommerseDirective3.js"></script>
+    <script src="./app/shared/ecommerseDirective4.js"></script>
+
+    <!-- ************************** Controllers ************************ -->
+    <script src="./app/component/views/xbox/xboxCtrl.js"></script>
+    <script src="./app/component/views/playstation/playstationCtrl.js"></script>
+    <script src="./app/component/views/laptops/laptopsCtrl.js"></script>
+    <script src="./app/component/views/apple/appleCtrl.js"></script>
+    <script src="./app/component/views/cart/cartCtrl.js"></script>
+    <script src="./app/component/views/login/loginCtrl.js"></script>
+    <script src="./app/component/views/login/createLoginCtrl.js"></script>
+    <script src="./app/component/views/home/homeCtrl.js"></script>
+
+  <!-- ************************** Services ************************ -->
+    <script src="./app/component/views/xbox/xboxSrvc.js"></script>
+    <script src="./app/component/views/playstation/playstationSrvc.js"></script>
+    <script src="./app/component/views/laptops/laptopsSrvc.js"></script>
+    <script src="./app/component/views/apple/appleSrvc.js"></script>
+    <script src="./app/component/views/product/productFrontendSrvc.js"></script>
+    <script src="./app/component/views/cart/cartSrvc.js"></script>
+    <script src="./app/component/views/login/authSrvc.js"></script>
+    <script src="./app/component/views/login/createLoginSrvc.js"></script>
+    <script src="./app/component/views/home/homeSrvc.js"></script>
+
+</body>
+
+</html>
